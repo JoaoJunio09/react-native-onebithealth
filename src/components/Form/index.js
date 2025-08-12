@@ -44,7 +44,7 @@ export default function Form() {
 				/>
 				<Text style={styles.formLabel}>Peso</Text>
 				<TextInput
-				style={styles.input}
+					style={styles.input}
 					onChangeText={setWeight}
 					value={weight}
 					placeholder="Ex. 75.365"
